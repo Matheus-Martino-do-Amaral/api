@@ -2,9 +2,9 @@
   "name": "portfolio_api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && node ./dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Matheus-Martino-do-Amaral/portfolio_api/issues"
   },
-  "homepage": "https://github.com/Matheus-Martino-do-Amaral/portfolio_api#readme"
+  "homepage": "https://github.com/Matheus-Martino-do-Amaral/portfolio_api#readme",
+  "dependencies": {
+    "typescript": "^4.6.3"
+  }
 }
